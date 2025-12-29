@@ -1,3 +1,83 @@
+/* Order List Modern Styling */
+.order-list {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 2rem 1.5rem;
+  margin: 2rem 0 0 0;
+  max-width: 420px;
+  position: fixed;
+  top: 24px;
+  right: 24px;
+  z-index: 1000;
+  width: 350px;
+  min-height: 120px;
+}
+
+.order-item {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  background: #f4f6fb;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  padding: 0.7rem 1rem;
+  box-shadow: 0 2px 8px rgba(100,108,255,0.06);
+  transition: box-shadow 0.2s;
+  position:relative;
+  top: 0;
+  z-index: 10;
+}
+.order-item:hover {
+  box-shadow: 0 4px 16px rgba(100,108,255,0.13);
+}
+.order-item img {
+  border-radius: 8px;
+  margin-right: 1rem;
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border: 1px solid #e0e0e0;
+}
+.order-item span {
+  flex: 1;
+  font-size: 1.1em;
+  color: #222;
+  margin: 0 0.5rem;
+}
+.qty-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+} 
+.order-item p{
+  font-weight: bold;
+  color: #000000;
+  margin: 0 1rem 0 0;
+}
+.qty-controls button {
+  background: #646cff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  box-shadow: 0 2px 6px rgba(100,108,255,0.08);
+}
+.qty-controls button:hover {
+  background: #535bf2;
+  color: #fff;
+}
+.qty-controls span {
+  min-width: 24px;
+  text-align: center;
+  font-size: 1.1em;
+  color: #333;
+}
 :root {
   font-family: 'Arial', sans-serif;
   margin: 0;
