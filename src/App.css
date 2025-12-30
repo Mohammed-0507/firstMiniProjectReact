@@ -127,6 +127,7 @@ nav button:hover{
   padding: 5px 10px;
   display: block;
   border-radius: 10px;
+  width: 300px;
 }
 .search button{
   border-radius: 10px;

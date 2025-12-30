@@ -24,7 +24,7 @@ function Header({ setPage, onSearch }) {
             <div className="navbar">
                 <nav>
                     <ul>
-                        <button onClick={() => setPage("paanier")}>Panier</button>
+                        <button onClick={() => setPage("panier")}>Panier</button>
                     </ul>
                 </nav>
             </div>
